@@ -16,7 +16,7 @@ git_repository(
 
 
 BARE_BUILD = """
-load("@bazel_tools//tools/build_rules/go:def.bzl", "go_prefix", "go_library")
+load("@io_bazel_rules_go//go:def.bzl", "go_prefix", "go_library")
 
 go_prefix("github.com/laramiel/bazel-example-golang-bare")
 
