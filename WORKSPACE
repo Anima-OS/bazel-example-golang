@@ -11,7 +11,7 @@ go_repositories()
 git_repository(
   name = "ws_remote",
   remote = "https://github.com/laramiel/bazel-example-golang-remote.git",
-  commit = "8f2e405",
+  commit = "4a9199b",
 )
 
 
